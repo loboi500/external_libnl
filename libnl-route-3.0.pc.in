@@ -1,11 +1,3 @@
-prefix=@prefix@
-exec_prefix=@exec_prefix@
-libdir=@libdir@
-includedir=@includedir@
-
-Name: libnl-route
-Description: Netlink Routing Family Library
-Version: @PACKAGE_VERSION@
-Requires: libnl-3.0
-Libs: -L${libdir} -lnl-route-@MAJ_VERSION@
-Cflags: -I${includedir}/libnl@MAJ_VERSION@
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c7de409d2282804619955913365bbfadc4fc69229a0dc2c02944b7ad50f8946
+size 278

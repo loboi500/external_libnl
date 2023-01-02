@@ -1,11 +1,3 @@
-prefix=@prefix@
-exec_prefix=@exec_prefix@
-libdir=@libdir@
-includedir=@includedir@
-
-Name: libnl-nf
-Description: Netfilter Netlink Library
-Version: @PACKAGE_VERSION@
-Requires: libnl-route-3.0
-Libs: -L${libdir} -lnl-nf-@MAJ_VERSION@
-Cflags: -I${includedir}/libnl@MAJ_VERSION@
+version https://git-lfs.github.com/spec/v1
+oid sha256:2f2532cc5ac60077a8ea1a389875880049d50b256558d0fe59493cb914839374
+size 273

@@ -1,12 +1,3 @@
-prefix=@prefix@
-exec_prefix=@exec_prefix@
-libdir=@libdir@
-includedir=@includedir@
-
-Name: libnl-idiag
-Description: Netlink Inet Diag Family Library
-Version: @PACKAGE_VERSION@
-Requires: libnl-3.0
-Libs: -L${libdir} -lnl-idiag-@MAJ_VERSION@
-Cflags: -I${includedir}/libnl@MAJ_VERSION@
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3221b18a676f7f71a55bf5467945695496787609692bae49e5476fb0b7d62ba
+size 281

@@ -1,11 +1,3 @@
-prefix=@prefix@
-exec_prefix=@exec_prefix@
-libdir=@libdir@
-includedir=@includedir@
-
-Name: libnl-genl
-Description: Generic Netlink Library
-Version: @PACKAGE_VERSION@
-Requires: libnl-3.0
-Libs: -L${libdir} -lnl-genl-@MAJ_VERSION@
-Cflags: -I${includedir}/libnl@MAJ_VERSION@
+version https://git-lfs.github.com/spec/v1
+oid sha256:44f9467bb75fdc9c397d461140d96c2f266041c78def3758ffc501203417d927
+size 269
